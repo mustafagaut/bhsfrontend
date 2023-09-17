@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Header/>
       
-      <BrowserRouter>
+      
       <Routes>
         <Route path="/student" element={<StudentList/>}>
 
@@ -33,7 +33,7 @@ function App() {
         <Route path="/editStudent/:id" element={<EditStudent/>}>
         </Route>
       </Routes>
-    </BrowserRouter>
+    
     <ToastContainer />
       <Footer/>
     </div>
