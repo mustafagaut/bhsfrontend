@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from '../images/logo.jpg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -18,10 +19,10 @@ const Header = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           
-          <Nav.Link href="/login">Home</Nav.Link>
-          <Nav.Link href="/student">Student List</Nav.Link>
+        <Nav.Link as={Link} to="/login">Home</Nav.Link>
+          <Nav.Link as={Link} to="/student">Student List</Nav.Link>
           <Nav.Link href="#">Teacher List</Nav.Link>
-          <Nav.Link href="/login">sign In</Nav.Link>
+          <Nav.Link as={Link} to="/login">sign In</Nav.Link>
           <Nav.Link href="#"></Nav.Link>
           {/* Add more Nav.Link components for other menu items */}
         </Nav>
