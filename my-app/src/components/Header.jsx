@@ -18,10 +18,10 @@ const Header = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           
-          <Nav.Link href="#">Home</Nav.Link>
-          <Nav.Link href="#">Student List</Nav.Link>
+          <Nav.Link href="/login">Home</Nav.Link>
+          <Nav.Link href="/student">Student List</Nav.Link>
           <Nav.Link href="#">Teacher List</Nav.Link>
-          <Nav.Link href="#">sign Out</Nav.Link>
+          <Nav.Link href="/login">sign In</Nav.Link>
           <Nav.Link href="#"></Nav.Link>
           {/* Add more Nav.Link components for other menu items */}
         </Nav>
