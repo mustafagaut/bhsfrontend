@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let url = "http://localhost:4000/api/v1/student/"
+let url = "https://bhs-orcin.vercel.app/api/v1/student/"
 
 export const addStudent = async (data) => {
     try {
